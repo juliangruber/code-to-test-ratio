@@ -1,8 +1,7 @@
 
 # code-to-test-ratio
 
-Get the code to test ratio of any project! This also works for
-Non-JavaScript code.
+Get the code to test ratio of any project, in any language.
 
 ## Usage
 
