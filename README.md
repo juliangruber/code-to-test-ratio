@@ -3,6 +3,8 @@
 
 Get the code to test ratio of any project, in any language.
 
+[![Build Status](https://travis-ci.org/juliangruber/code-to-test-ratio.png?branch=master)](https://travis-ci.org/juliangruber/code-to-test-ratio)
+
 ## Usage
 
 ```js
