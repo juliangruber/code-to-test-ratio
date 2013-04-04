@@ -1,7 +1,7 @@
 {
   "name": "code-to-test-ratio",
   "description": "Get the code-to-test ratio of any project!",
-  "version": "0.0.1",
+  "version": "0.0.2",
   "repository": {
     "type": "git",
     "url": "git://github.com/juliangruber/code-to-test-ratio.git"

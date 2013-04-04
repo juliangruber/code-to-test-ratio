@@ -38,7 +38,7 @@ function getRatio (root, opts, cb) {
     fs.readFile(file, function (err, content) {
       if (err) return done(err);
 
-      var lines = content.toString().split(/\n|\r/).length;
+      var lines = content.toString().match(/^.*([\n\r]+|$)/gm).length;
 
       rel.indexOf('test') > -1
         ? loc.test += lines
