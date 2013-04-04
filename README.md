@@ -7,6 +7,19 @@ Get the code to test ratio of any project, in any language.
 
 ## Usage
 
+Use the binary:
+
+```bash
+$ c2t
+Code to test ratio: 0.23728813559322035
+LOC Code: 59
+LOC Test: 14
+```
+
+Wow, 24%, I hope you do better!
+
+Or use it from JavaScript:
+
 ```js
 var getRatio = require('code-to-test-ratio');
 
@@ -17,17 +30,6 @@ getRatio(__dirname, function (err, ratio, loc) {
   console.log('LOC Test: ' + loc.test);
 });
 ```
-
-Output for this module:
-
-```bash
-$ node example/simple.js
-Code to test ratio: 0.23728813559322035
-LOC Code: 59
-LOC Test: 14
-```
-
-Wow, 24%, I hope you do better!
 
 ## API
 
@@ -46,10 +48,16 @@ You can overwrite this by passing an Array of valid extensions to
 
 ## Installation
 
-With [npm](http://npmjs.org) do
+With [npm](http://npmjs.org), for the library do
 
 ```bash
 $ npm install code-to-test-ratio
+```
+
+and for the binary do
+
+```bash
+$ sudo npm install -g code-to-test-ratio
 ```
 
 ## License

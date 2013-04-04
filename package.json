@@ -1,7 +1,7 @@
 {
   "name": "code-to-test-ratio",
   "description": "Get the code-to-test ratio of any project!",
-  "version": "0.0.2",
+  "version": "0.1.0",
   "repository": {
     "type": "git",
     "url": "git://github.com/juliangruber/code-to-test-ratio.git"
@@ -10,6 +10,9 @@
   "main": "index.js",
   "scripts": {
     "test": "tap test/*.js"
+  },
+  "bin": {
+    "c2t": "./bin/c2t.js"
   },
   "dependencies": {
     "findit": "~0.1.2",
